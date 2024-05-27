@@ -18,43 +18,43 @@ To install the application, follow these steps:
 
 1. **Clone the repository:**
 
-# Your bash commands go here
-
+```bash
 git clone https://github.com/your-username/stratex_movie_list.git
 cd stratex_movie_list
+```
 
 2. **Install dependencies:**
+Make sure you have Node.js and npm installed. Then run:
 
-# Your bash commands go here
-
+```bash
 npm install
+```
 
 ## Configuration
 
-**Environment Variables**
+**Environment Variables (.env)**
 
-To configure the application, you need to set up environment variables. Create a .env file in the root directory and add the following:
+To configure the application, you need to set up environment variables. Create a `.env` file in the root directory and add the following:
+[https://dummyapi.online/api/movies](https://dummyapi.online/api/movies)
 
-# Displaying Environment Variables
-
+```dotenv
 REACT_APP_URL=https://dummyapi.online/api/movies
+```
 
 ## Running the App
 
 To start the application in development mode, run:
 
-# Your bash commands go here
-
+```bash
 npm start
-
-This will run the app in development mode, and it will be accessible at http://localhost:3000.
+```
+This will run the app in development mode, and it will be accessible at [http://localhost:3000](http://localhost:3000).
 
 ## Folder Structure
 
 Here's an overview of the project's folder structure:
 
 ```java
-
 stratex_movie_list/
 ├── node_modules/
 ├── public/
@@ -83,11 +83,7 @@ stratex_movie_list/
 ├── package-lock.json
 ├── package.json
 └── README.md
-
 ```
-## Available Scripts
-
-In the project directory, you can run the following scripts:
 
 ## Available Scripts
 
@@ -96,7 +92,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in development mode.
-Open http://localhost:3000 to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
@@ -108,7 +104,7 @@ See the section about running tests for more information.
 
 ### `npm run build`
 
-Builds the app for production to the build folder.
+Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.
@@ -116,7 +112,9 @@ Your app is ready to be deployed!
 
 ### `npm run eject`
 
-> Note: this is a one-way operation. Once you eject, you can't go back!
+> Note: this is a one-way operation. Once you `eject`, you can't go back!
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) directly into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point, you are on your own.
 
@@ -127,7 +125,7 @@ Contributions are welcome! Please create an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the [MIT](https://github.com/axios/axios/blob/v1.x/LICENSE) License. See the [LICENSE](https://github.com/axios/axios/blob/v1.x/LICENSE) file for details.
 
 
 
